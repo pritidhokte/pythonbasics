@@ -1,0 +1,6 @@
+f = open("this.txt", 'w')
+f.write("heloo")
+f = open("this.txt")
+a = f.read()
+print(a)
+f.close()
